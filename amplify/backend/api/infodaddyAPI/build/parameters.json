@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "infodaddyAPI",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-my-aws-project-infodaddy-144643-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/d6e5a23c24cd0cf6b085173b050e0e0833f64454"
+}
