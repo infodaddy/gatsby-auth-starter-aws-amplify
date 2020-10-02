@@ -1,0 +1,21 @@
+{
+    "appName": "myAwsPinpointResource",
+    "roleName": "pinpointLambdaRole56f399ff",
+    "cloudformationPolicyName": "cloudformationPolicy56f399ff",
+    "cloudWatchPolicyName": "cloudWatchPolicy56f399ff",
+    "pinpointPolicyName": "pinpointPolicy56f399ff",
+    "authPolicyName": "pinpoint_amplify_56f399ff",
+    "unauthPolicyName": "pinpoint_amplify_56f399ff",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
