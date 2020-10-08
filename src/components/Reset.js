@@ -19,8 +19,8 @@ class Reset extends React.Component {
     })
   }
 
- forgotpasswordbutton() {
-	var poolData = {
+    reset = async() => {
+        var poolData = {
         UserPoolId : _config.cognito.userPoolId, // Your user pool id here
         ClientId : _config.cognito.clientId, // Your client id here
     };
