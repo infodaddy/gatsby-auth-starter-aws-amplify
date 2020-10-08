@@ -64,6 +64,7 @@ class Login extends React.Component {
         </div>
         <Link to="/app/signup">Sign Up</Link><br />
         <Link to="/login/reset">Forgot password?</Link>
+        <button type="button" onclick="forgotpasswordbutton()">Forgot password button</button>
       </div>
     )
   }
