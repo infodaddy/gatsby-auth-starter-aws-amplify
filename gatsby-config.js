@@ -27,8 +27,18 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-theme-amplify-cognito`,
+      options: {
+          region: '',
+          userPoolId: '',
+          userPoolWebClientId: ''
+      },
+  }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
+  //cognito704b3e59_userpool_704b3e59-infodaddy
+  //App clients cognit1b0f8e89_app_clientWeb, cognit1b0f8e89_app_client
 }
